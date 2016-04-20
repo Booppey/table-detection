@@ -60,10 +60,8 @@ int main(int argc, char* argv[])
         imwrite("tables/note.png", rois[i]);
     }
 
-    std::cout<<"So tu giac: " <<contours_poly_select.size() <<"\n";
     for(size_t i = 0; i < contours_poly_select.size(); ++i)
     {
-	std::cout<<"So dinh: " <<contours_poly_select[i].size() <<"\n";
 	if(contours_poly_select[i].size() == 4)
 	{
 	    std::cout<<"\n\nRectangle " <<i <<": \n";
