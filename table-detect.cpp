@@ -75,8 +75,8 @@ int main(int argc, char* argv[])
     }
 
     imwrite("tables/contours.png", src);
-    imshow("contours", src);
+    //imshow("contours", src);
 
-    waitKey();
+    //waitKey();
     return 0;
 }
